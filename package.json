@@ -1,0 +1,27 @@
+{
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "The best way to watch videos.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HongnamKim/youtube-reloaded.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "author": "Hongnam Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HongnamKim/youtube-reloaded/issues"
+  },
+  "homepage": "https://github.com/HongnamKim/youtube-reloaded#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.20"
+  }
+}
