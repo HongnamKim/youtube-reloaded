@@ -7,7 +7,7 @@
     "url": "git+https://github.com/HongnamKim/youtube-reloaded.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node index.js"
+    "dev": "nodemon --exec babel-node src/server.js"
   },
   "author": "Hongnam Kim",
   "license": "MIT",
