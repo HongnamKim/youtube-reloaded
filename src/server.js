@@ -9,6 +9,9 @@ const PORT = 4000;
 
 const app = express();
 const logger = morgan("dev");
+
+app.set("view engine", "pug");
+app.set("views", process.cwd() + "/src/views");
 app.use(logger);
 
 // Router 생성하여 url의 시작에 따라 각 Router에서 담당하도록 설계
